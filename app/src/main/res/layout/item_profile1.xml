@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="9.5dp"
+    android:layout_marginRight="9.5dp"
+    android:layout_marginBottom="13.7dp"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="153dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/swift_fullblack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:paddingTop="14dp"
+            android:paddingLeft="9.3dp"
+            android:paddingBottom="14.7dp"
+            android:background="@color/black">
+
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/like"/>
+
+            <TextView
+                android:id="@+id/txtlike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.1k"
+                android:textColor="#c5c5c7"
+                android:layout_marginLeft="6dp"
+                android:textSize="13.7sp"/>
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="17.5dp"
+                android:src="@drawable/calorieicon"/>
+
+            <TextView
+                android:id="@+id/txtcomment"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="3.7k"
+                android:layout_marginLeft="6dp"
+                android:textColor="#c5c5c7"
+                android:textSize="13.7sp"/>
+
+            <TextView
+                android:id="@+id/txttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2h ago"
+                android:textSize="13.7sp"
+                android:layout_marginRight="10dp"
+                android:textColor="#c5c5c7"/>
+
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+
+    <LinearLayout
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+             <!-- <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">  -->
+
+
+
+        <LinearLayout
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="229dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="225dp"
+                    android:background="@color/darkBlue">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="245dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:elevation="3dp">
+
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="248dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="47dp"
+                            android:layout_marginRight="10dp"
+                            android:elevation="5dp">
+
+                            <com.dd.ShadowLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="209dp"
+                                android:background="#FFFFFF"
+                                shadow:sl_cornerRadius="10dp"
+                                shadow:sl_dx="2dp"
+                                shadow:sl_dy="2dp"
+                                shadow:sl_shadowColor="#11e1e2e4">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/gradient"
+                                    android:orientation="vertical">
+
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="30dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_horizontal"
+                                            android:layout_marginTop="30dp"
+                                            android:text="Test User"
+                                            android:textColor="@color/lightBlue"
+                                            android:textSize="18.5sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_horizontal"
+                                            android:layout_marginTop="14dp"
+                                            android:text="Athlete"
+                                            android:textColor="#c5c5c7"
+                                            android:textSize="14sp" />
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="20dp"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="293"
+                                            android:textColor="#c5c5c7"
+                                            android:textSize="16.7sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="3dp"
+                                            android:gravity="center"
+                                            android:text="Workouts Completed"
+                                            android:textColor="@color/lightBlue"
+                                            android:textSize="12.7sp" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="10.3k"
+                                            android:textColor="#c5c5c7"
+                                            android:textSize="16.7sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="3dp"
+                                            android:gravity="center"
+                                            android:text="kCal Burned"
+                                            android:textColor="@color/lightBlue"
+                                            android:textSize="12.7sp" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="121"
+                                            android:textColor="#c5c5c7"
+                                            android:textSize="16.7sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="3dp"
+                                            android:gravity="center"
+                                            android:text="Average HR"
+                                            android:textColor="@color/lightBlue"
+                                            android:textSize="12.7sp" />
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+                            </com.dd.ShadowLayout>
+
+                        </FrameLayout>
+
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/circle"
+                            android:elevation="5dp"
+                            android:src="@drawable/profile2" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="476dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="19dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Workout History"
+                        android:textColor="@color/lightBlue"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/createNew"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create new"
+                        android:textColor="#07b2f3"
+                        android:textSize="13.5sp" />
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/collection_recycleview"
+                    android:layout_width="match_parent"
+                    android:layout_height="536dp"
+
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"></android.support.v7.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--  </ScrollView> -->
+
+
+
+      </LinearLayout>
+
+
+  </FrameLayout>
